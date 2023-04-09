@@ -2,36 +2,36 @@
   {
     "id": 1,
     "img": "../public/Logo/google-1-1 1-1.png",
-    "title": "Software Engineer",
-    "subtitle": "Full-time",
+    "title": "Technical Database Engineer",
+    "subtitle": "Google LLC",
     "location": "San Francisco, CA",
-    "salary": "$120,000 - $150,000"
+    "salary": "120K - 150K"
   },
 
   {
     "id": 2,
     "img": "../public/Logo/netflix-4 1.png",
-    "title": "Marketing Manager",
-    "subtitle": "Part-time",
+    "title": "Senior Product Designer",
+    "subtitle": "Netflix",
     "location": "New York, NY",
-    "salary": "$80,000 - $100,000"
+    "salary": "80K - 100K"
   },
 
   {
     "id": 3,
     "img": "../public/Logo/tesla-9 1.png",
-    "title": "Data Analyst",
-    "subtitle": "Contract",
+    "title": "Software Engineer",
+    "subtitle": "Tesla",
     "location": "Chicago, IL",
-    "salary": "$50 - $60 per hour"
+    "salary": "60K - 65K "
   },
 
   {
     "id": 4,
     "img": "../public/Logo/google-1-1 1.png",
-    "title": "Data Analyst",
-    "subtitle": "Contract",
+    "title": "Technical Database Engineer",
+    "subtitle": "Google LLC",
     "location": "Chicago, IL",
-    "salary": "$50 - $60 per hour"
+    "salary": "120K - 150K"
   }
 ]

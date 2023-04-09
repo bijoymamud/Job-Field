@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import MainJob from '../MainJob/MainJob';
 import SingleJob from '../SingleJob/SingleJob';
 
 const Jobs = () => {
@@ -29,6 +30,8 @@ const Jobs = () => {
                 }
             </div>
 
+
+            <MainJob></MainJob>
         </div>
     );
 };
