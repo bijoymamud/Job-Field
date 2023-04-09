@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "./Navbar.css";
 
 const Navbar = () => {
     return (
-        <nav>
+        <nav className='flex items-center justify-around mt-12'>
             <div>
-                <h3 className='text'>JobHub</h3>
+                <h3 className='text-4xl font-mono font-bold'>JobHub</h3>
             </div>
 
             <div>
@@ -15,7 +16,7 @@ const Navbar = () => {
                 <Link to="/blog">Blog</Link>
             </div>
             <div>
-                <button>Star Applying</button>
+                <button className='btn-apply'>Star Applying</button>
             </div>
 
         </nav>
