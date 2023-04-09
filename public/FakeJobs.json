@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "img": "../public/Logo/google-1-1 1-1.png",
+    "title": "Software Engineer",
+    "subtitle": "Full-time",
+    "location": "San Francisco, CA",
+    "salary": "$120,000 - $150,000"
+  },
+
+  {
+    "id": 2,
+    "img": "../public/Logo/netflix-4 1.png",
+    "title": "Marketing Manager",
+    "subtitle": "Part-time",
+    "location": "New York, NY",
+    "salary": "$80,000 - $100,000"
+  },
+
+  {
+    "id": 3,
+    "img": "../public/Logo/tesla-9 1.png",
+    "title": "Data Analyst",
+    "subtitle": "Contract",
+    "location": "Chicago, IL",
+    "salary": "$50 - $60 per hour"
+  },
+
+  {
+    "id": 4,
+    "img": "../public/Logo/google-1-1 1.png",
+    "title": "Data Analyst",
+    "subtitle": "Contract",
+    "location": "Chicago, IL",
+    "salary": "$50 - $60 per hour"
+  }
+]
