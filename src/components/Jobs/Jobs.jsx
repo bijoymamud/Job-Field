@@ -32,7 +32,9 @@ const Jobs = () => {
 
 
             <MainJob></MainJob>
+
         </div>
+
     );
 };
 

@@ -12,18 +12,23 @@ const MainJob = () => {
     }, [])
 
     return (
-        <div className='text-center mb-8 '>
-            <div>
-                <h3 className='text-5xl font-bold mb-4'>Featured Jobs</h3>
-                <p className='text-gray-500 font-bold'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+        <div >
+            <div className='text-center mb-8 '>
+                <div>
+                    <h3 className='text-5xl font-bold mb-4'>Featured Jobs</h3>
+                    <p className='text-gray-500 font-bold'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                </div>
+                <div className='grid grid-cols-2 gap-10 mx-36 mt-8 '>
+                    {
+                        mainJobs.map(mainJob => <MainSingleJob
+                            key={mainJob.id}
+                            mainJob={mainJob}
+                        ></MainSingleJob>)
+                    }
+                </div>
             </div>
-            <div className='grid grid-cols-2 gap-10 mx-36 mt-8 '>
-                {
-                    mainJobs.map(mainJob => <MainSingleJob
-                        key={mainJob.id}
-                        mainJob={mainJob}
-                    ></MainSingleJob>)
-                }
+            <div className='text-center mt-10 mb-36 font'>
+                <button className=' rounded-lg bg-gradient-to-r from-indigo-500 via-purple-600 p-3'>See More</button>
             </div>
         </div>
     );
