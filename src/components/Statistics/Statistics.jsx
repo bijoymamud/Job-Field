@@ -6,6 +6,7 @@ import {
     ComposedChart,
     Legend,
     Line,
+    ResponsiveContainer,
     Tooltip,
     XAxis,
     YAxis
@@ -75,28 +76,32 @@ const Statistics = () => {
 
 
     return (
-        <div className='centre md:mt-20  md:mx-36' >
-            <h3 className='text-center mt-20 text-2xl md:text-4xl font-mono  font-bold mb-10'>Assignment's Statistics</h3>
-            <ComposedChart
-                width={1200}
-                height={500}
-                data={data}
-                margin={{
-                    top: 30,
-                    right: 20,
-                    bottom: 20,
-                    left: 20
-                }}
-            >
-                <CartesianGrid stroke="#f5f5f5" />
-                <XAxis dataKey="name" scale="band" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Area type="monotone" dataKey="BgColor" fill="#8884d8" stroke="#8884d8" />
-                <Bar dataKey="Barmark" barSize={30} fill="#413ea0" />
-                <Line type="monotone" dataKey="mark" stroke="#ff7300" />
-            </ComposedChart>
+        <div className='centre  md:mt-20  md:mx-36' >
+            <h3 className='text-center font-mono text-2xl mt-14 mb-14  font-bold md:text-5xl md:mb-10'>Assignment's Statistics</h3>
+            <div style={{ width: '100%', height: 500 }}>
+                <ResponsiveContainer>
+                    <ComposedChart
+                        width={500}
+                        height={500}
+                        data={data}
+                        margin={{
+                            top: 20,
+                            right: 20,
+                            bottom: 20,
+                            left: 20,
+                        }}
+                    >
+                        <CartesianGrid stroke="#f5f5f5" />
+                        <XAxis dataKey="name" scale="band" />
+                        <YAxis />
+                        <Tooltip />
+                        <Legend />
+                        <Area type="monotone" dataKey="BgColor" fill="#8884d8" stroke="#8884d8" />
+                        <Bar dataKey="Barmark" barSize={30} fill="#413ea0" />
+                        <Line type="monotone" dataKey="mark" stroke="#ff7300" />
+                    </ComposedChart>
+                </ResponsiveContainer>
+            </div>
         </div >
     );
 };
