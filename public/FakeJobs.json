@@ -1,36 +1,76 @@
 [
   {
-    "id": 1,
+    "id": "111iofdajfdoadfjio",
     "img": "../public/Logo/google-1-1 1-1.png",
     "title": "Technical Database Engineer",
     "subtitle": "Google LLC",
+
+    "job_description": "We are seeking a results-oriented database engineer to help optimize the performance of our organization's databases. You will be enhancing our data storage capacity, writing new support programs and scripts, and troubleshooting database code.To ensure success as a database engineer, you should exhibit knowledge of best practices in database management and experience in a similar role.",
+
+    "job_responsibility": "The hiring manager is thrilled. But she has her reservations. She needs to pinch herself and make sure you’re not too good to be true. So, she asks you to briefly describe your current position.",
+
+    "educational_requirements": "Bachelor's degree in Computer Science or a related field",
+
+    "experience": "At least 3 years of experience in software development",
+
+    "btn": "Remote",
     "location": "San Francisco, CA",
     "salary": "120K - 150K"
   },
 
   {
-    "id": 2,
+    "id": "222afdjioajoeif",
     "img": "../public/Logo/netflix-4 1.png",
     "title": "Senior Product Designer",
     "subtitle": "Netflix",
+
+    "job_description": "Producers are entertainment professionals who can work in a wide variety of industries, like television, film, music and theater. They’re typically responsible for developing a project and overseeing the entire creation process from beginning to end. One of their main responsibilities is to build a budget for the project and to locate the necessary funding or financing for it.",
+
+    "job_responsibility": "Employers write job responsibilities within their job listings for candidates looking to work for their organization. Candidates review the job responsibilities to find out if they're qualified for an open position. The way employers write their job descriptions can determine the type of candidates who apply for open positions.",
+
+    "educational_requirements": "Communication skills for coordinating between different departments and personnel",
+
+    "experience": "Maded atleast 20/25 short films and 2/5 tv serial",
+
+    "btn": "Outline",
     "location": "New York, NY",
     "salary": "80K - 100K"
   },
 
   {
-    "id": 3,
+    "id": "333adfdioaeo",
     "img": "../public/Logo/tesla-9 1.png",
     "title": "Software Engineer",
     "subtitle": "Tesla",
+
+    "job_description": "Apply cutting-edge research to advance a future of full self-driving, developing some of the world’s most sophisticated decision-making systems.",
+
+    "job_responsibility": " A company looking to fill a project manager position may list that they're looking for a candidate who can define a project's goals. They may include job responsibilities for this position including: track the budget, produce schedules, review progress and measure the performance of company projects.",
+
+    "educational_requirements": "At least 3 years of experience in development",
+
+    "experience": "At least 3 years of experience in automated engineering",
+
+    "btn": "Onsite ",
     "location": "Chicago, IL",
     "salary": "60K - 65K "
   },
 
   {
-    "id": 4,
+    "id": "444abdlvga",
     "img": "../public/Logo/google-1-1 1.png",
     "title": "Technical Database Engineer",
     "subtitle": "Google LLC",
+
+    "job_description": "Meet with the human resources manager to confirm the official job title of the open position. The company may have a higher likelihood of finding the right applicants by using a title that properly reflects the job's responsibilities.",
+
+    "job_responsibility": "Research job duties for the position the company seeks to fill. You can gather inspiration from examples showing how companies list the employee's day-to-day responsibilities. Consult with the hiring manager to get their perspective on the duties they expect the employee to perform.",
+
+    "educational_requirements": "Communication skills for coordinating between different departments and personnel",
+
+    "experience": "At least 3 years of experience in automated engineering",
+
+    "btn": "Remote",
     "location": "Chicago, IL",
     "salary": "120K - 150K"
   }
