@@ -59,25 +59,25 @@ const JobDetails = () => {
                         <hr />
                         <h3 className='font-bold mt-3'>
                             <FontAwesomeIcon className='me-2' icon={faCircleDollarToSlot} />
-                            Salary: <span className='text-slate-500 '>{info?.salary} (per month)</span></h3>
+                            Salary: <span className='text-white '>{info?.salary} (per month)</span></h3>
 
                         <h3 className='font-bold mt-3 mb-3'>
                             <FontAwesomeIcon className='me-2' icon={faCalendar} />
-                            Jon Title: <span className='text-slate-500 '>{info?.title}</span></h3>
+                            Jon Title: <span className='text-white '>{info?.title}</span></h3>
 
 
                         <h3 className='font-bold mt-8 mb-3 text-2xl'>Contact Information</h3>
                         <hr />
                         <h3 className='font-bold mt-3 mb-3'>
                             <FontAwesomeIcon className='me-2' icon={faPhone} />
-                            Phone : <span className='text-slate-500 ' >{info?.phone}</span></h3>
+                            Phone : <span className='text-white ' >{info?.phone}</span></h3>
                         <h3 className='font-bold mt-3 mb-3'>
                             <FontAwesomeIcon className='me-2' icon={faEnvelope} />
-                            Email: <span className='text-slate-500 '>{info?.email}</span> </h3>
+                            Email: <span className='text-white '>{info?.email}</span> </h3>
 
                         <h3 className='font-bold mt-3 mb-3'>
                             <FontAwesomeIcon className='me-2' icon={faLocation} />
-                            Address : <span className='text-slate-500 '>{info?.location}</span></h3>
+                            Address : <span className='text-white '>{info?.location}</span></h3>
                     </div>
                     <button onClick={() => handleAddId(id)} className='btn-primary mt-4 w-full'>Apply Now</button>
                 </div>

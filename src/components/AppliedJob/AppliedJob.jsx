@@ -31,7 +31,7 @@ const AppliedJob = () => {
         const showjobs = []
 
         for (const add in apply) {
-            // console.log(add);
+
             const showdatas = datas.find((data) => data.id == add);
             showjobs.push(showdatas);
         }
@@ -40,9 +40,9 @@ const AppliedJob = () => {
 
 
     }, [datas])
-    // console.log(getJoobs);
 
-    // console.log(datas);
+
+
     const handleForm = (e) => {
         e.preventDefault()
         const form = e.target;

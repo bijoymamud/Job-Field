@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import AppliedJob from './components/AppliedJob/AppliedJob';
 import Blog from './components/Blog/Blog';
+import Error from './components/fourOf/Error';
 import Home from './components/Home/Home';
 import JobDetails from './components/JobDetails/JobDetails';
 import Main from './components/Layout/Main';
@@ -43,7 +44,7 @@ const router = createBrowserRouter([
 
   {
     path: "*",
-    element: <div>404</div>
+    element: <Error></Error>
   }
 
 ])

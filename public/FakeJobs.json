@@ -85,5 +85,48 @@
     "btn": "Remote",
     "location": "Chicago, IL",
     "salary": "120K - 150K"
+  },
+  {
+    "id": "555555abdlvga",
+    "img": "../public/Logo/google-1-1 1.png",
+    "title": "Technical Database Engineer",
+    "subtitle": "Google LLC",
+
+    "job_description": "Meet with the human resources manager to confirm the official job title of the open position. The company may have a higher likelihood of finding the right applicants by using a title that properly reflects the job's responsibilities.",
+
+    "job_responsibility": "Research job duties for the position the company seeks to fill. You can gather inspiration from examples showing how companies list the employee's day-to-day responsibilities. Consult with the hiring manager to get their perspective on the duties they expect the employee to perform.",
+
+    "educational_requirements": "Communication skills for coordinating between different departments and personnel",
+
+    "experience": "At least 3 years of experience in automated engineering",
+
+    "email": " info@gmail.com",
+    "phone": "01750-00 00 00",
+
+    "btn": "Remote",
+    "location": "Chicago, IL",
+    "salary": "120K - 150K"
+  },
+
+  {
+    "id": "6666666abdlvga",
+    "img": "../public/Logo/google-1-1 1.png",
+    "title": "Technical Database Engineer",
+    "subtitle": "Google LLC",
+
+    "job_description": "Meet with the human resources manager to confirm the official job title of the open position. The company may have a higher likelihood of finding the right applicants by using a title that properly reflects the job's responsibilities.",
+
+    "job_responsibility": "Research job duties for the position the company seeks to fill. You can gather inspiration from examples showing how companies list the employee's day-to-day responsibilities. Consult with the hiring manager to get their perspective on the duties they expect the employee to perform.",
+
+    "educational_requirements": "Communication skills for coordinating between different departments and personnel",
+
+    "experience": "At least 3 years of experience in automated engineering",
+
+    "email": " info@gmail.com",
+    "phone": "01750-00 00 00",
+
+    "btn": "Remote",
+    "location": "Chicago, IL",
+    "salary": "120K - 150K"
   }
 ]
