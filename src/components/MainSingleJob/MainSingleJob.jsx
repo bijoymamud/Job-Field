@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import JobDetails from '../JobDetails/JobDetails';
 
 const MainSingleJob = ({ mainJob }) => {
     const { id, btn, img, title, subtitle, location, salary } = mainJob
@@ -23,7 +24,7 @@ const MainSingleJob = ({ mainJob }) => {
 
             </div>
 
-
+           
         </div>
     );
 };
