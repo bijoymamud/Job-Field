@@ -11,7 +11,10 @@ const AppliedJob = () => {
 
     const [datas, setDatas] = useState([]);
 
+
+
     const [getJoobs, setGetJoobs] = useState([])
+    const [typeData, setTypeData] = useState([]);
     useEffect(() => {
 
         const elements = async () => {
@@ -33,16 +36,43 @@ const AppliedJob = () => {
             showjobs.push(showdatas);
         }
         setGetJoobs(showjobs);
+        setTypeData(showjobs);
 
 
     }, [datas])
     // console.log(getJoobs);
 
     // console.log(datas);
+    const handleForm = (e) => {
+        e.preventDefault()
+        const form = e.target;
+        const type = form.type.value;
+
+        const filterData = getJoobs.filter((getJoob) =>
+            getJoob.btn == type
+
+        )
+        setTypeData(filterData);
+    }
+    console.log(typeData);
+
+
     return (
-        <div>
+        <div className='mt-24'>
+            <h3 className='text-center text-5xl font-bold mb-14'>Applied Jobs</h3>
+
+            <form action="" onSubmit={handleForm} className=''>
+                <select required name="type" className="select select-bordered select-xs w-28  ">
+
+
+                    <option >onsite</option>
+                    <option >Remote</option>
+                </select>
+                <button>Submit</button>
+            </form>
+
             {
-                getJoobs.map(getJoob => <ShowApplyJob
+                typeData.map(getJoob => <ShowApplyJob
 
 
                     getJoob={getJoob}
