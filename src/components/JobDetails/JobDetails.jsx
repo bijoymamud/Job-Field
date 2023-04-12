@@ -11,9 +11,11 @@ const JobDetails = () => {
 
 
     const [ids, setIds] = useState([]);
-    console.log(ids);
+    // console.log(ids);
 
     const handleAddId = (newId) => {
+        const newJob = [...ids, newId]
+        setIds(newJob);
         addToDb(newId);
     }
 
