@@ -61,14 +61,14 @@ const AppliedJob = () => {
         <div className='mt-24'>
             <h3 className='text-center text-5xl font-bold mb-14'>Applied Jobs</h3>
 
-            <form action="" onSubmit={handleForm} className=''>
+            <form action="" onSubmit={handleForm} className='flex items-center gap-8 justify-end md:me-40'>
                 <select required name="type" className="select select-bordered select-xs w-28  ">
 
 
                     <option >onsite</option>
                     <option >Remote</option>
                 </select>
-                <button>Submit</button>
+                <button className='btn-primary'>Submit</button>
             </form>
 
             {
