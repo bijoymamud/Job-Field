@@ -1,7 +1,7 @@
 [
   {
     "id": "111iofdajfdoadfjio",
-    "img": "../public/Logo/google-1-1 1-1.png",
+    "img": "https://i.ibb.co/7Xtg13j/google-1-1-1.png",
     "title": "Technical Database Engineer",
     "subtitle": "Google LLC",
 
@@ -23,7 +23,7 @@
 
   {
     "id": "222afdjioajoeif",
-    "img": "../public/Logo/netflix-4 1.png",
+    "img": "https://i.ibb.co/Y7DPHyj/netflix-4-1.png",
     "title": "Senior Product Designer",
     "subtitle": "Netflix",
 
@@ -45,7 +45,7 @@
 
   {
     "id": "333adfdioaeo",
-    "img": "../public/Logo/tesla-9 1.png",
+    "img": "https://i.ibb.co/74P5FBs/tesla-9-1.png",
     "title": "Software Engineer",
     "subtitle": "Tesla",
 
@@ -67,7 +67,7 @@
 
   {
     "id": "444abdlvga",
-    "img": "../public/Logo/google-1-1 1.png",
+    "img": "https://i.ibb.co/7Xtg13j/google-1-1-1.png",
     "title": "Technical Database Engineer",
     "subtitle": "Google LLC",
 
@@ -88,7 +88,7 @@
   },
   {
     "id": "555555abdlvga",
-    "img": "../public/Logo/google-1-1 1.png",
+    "img": "https://i.ibb.co/7Xtg13j/google-1-1-1.png",
     "title": "Technical Database Engineer",
     "subtitle": "Google LLC",
 
@@ -110,7 +110,7 @@
 
   {
     "id": "6666666abdlvga",
-    "img": "../public/Logo/google-1-1 1.png",
+    "img": "https://i.ibb.co/7Xtg13j/google-1-1-1.png",
     "title": "Technical Database Engineer",
     "subtitle": "Google LLC",
 

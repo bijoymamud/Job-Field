@@ -1,4 +1,5 @@
 import React from 'react';
+import img from '../../assets/AllImages/profile.png';
 import Jobs from '../Jobs/Jobs';
 import "./Home.css";
 
@@ -15,7 +16,7 @@ const Home = () => {
 
                     </div>
                     <div>
-                        <img src="../../../public/All Images/P3OLGJ1 copy 1.png" alt="" />
+                        <img src={img} alt="" />
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ const Error = () => {
     return (
         <div className=' flex flex-col items-center text-center  mt-36'>
             <div className='mb-8'>
-                <img src="../../../public/All Images/error.png" alt="" />
+                <img src="https://i.ibb.co/3mJt0Hc/error.png" alt="" />
             </div>
 
             <div>

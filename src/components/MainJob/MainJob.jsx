@@ -10,7 +10,7 @@ const MainJob = () => {
     const [displayCount, setDisplayCount] = useState(4);
     useEffect(() => {
 
-        fetch("FakeJobs.json")
+        fetch("/FakeJobs.json")
             .then(res => res.json())
             .then(data => setJsonData(data))
     }, [])

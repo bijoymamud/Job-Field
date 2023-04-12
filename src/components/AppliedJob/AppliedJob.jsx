@@ -19,7 +19,7 @@ const AppliedJob = () => {
 
         const elements = async () => {
 
-            let res = await fetch("../../../public/FakeJobs.json");
+            let res = await fetch("/FakeJobs.json");
             let data = await res.json();
             setDatas(data);
         }

@@ -27,6 +27,7 @@ const MainSingleJob = ({ mainJob }) => {
                 <Link to={`/jobDetails/${id}`} className=" btn-primary">View Details</Link>
 
 
+
             </div>
 
 

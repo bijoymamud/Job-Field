@@ -8,7 +8,7 @@ const Jobs = () => {
 
     useEffect(() => {
 
-        fetch('FakeCatagory.json')
+        fetch('/FakeCatagory.json')
             .then(res => res.json())
             .then(data => setJobs(data))
 
